@@ -7,8 +7,8 @@ test_y = y
 
 regressionRunner = SimpleLinearRegression("OLS")
 
-result = regressionRunner.doRegression(x,y)
+result = regressionRunner.doRegression(x, y)
 print("Single regression result: "+str(result))
 print()
-pipelineResult = regressionRunner.doRegressionPipeline(x,y, test_x, test_y)
+pipelineResult = regressionRunner.doRegressionPipeline(x, y, test_x, test_y)
 print("Pipeline result: "+str(pipelineResult))
