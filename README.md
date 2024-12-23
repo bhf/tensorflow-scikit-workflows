@@ -51,10 +51,10 @@ Core classes related to all models, representations of model performance and com
 
 `sklearnworkflows`
 Machine learning pipelines implemented using Sklearn.
-This package depends on `core`
+Depends on `core`.
 
 `tensorflowworkflows`
 Machine learning pipelines implemented using Tensorflow.
-This package depends on `core`
+Depends on `core`.
 
-`api` A simple FastAPI interface
+`api` A simple FastAPI interface.
