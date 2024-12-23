@@ -4,7 +4,7 @@ from core.domain.regressionPipelineResult import RegressionPipelineResult
 from core.domain.regressionResult import RegressionResult
 
 class SimpleLinearRegression:
-    """ Encapsulate logic around linear regressions.
+    """ Encapsulate logic around linear regressions using SKLearn.
     """
 
     def __init__(self, name):

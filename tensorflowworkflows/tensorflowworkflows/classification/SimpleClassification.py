@@ -1,5 +1,5 @@
 class SimpleClassification:
-    """ Encapsulate logic around classification models using SKLearn.
+    """ Encapsulate logic around classification models using Tensorflow.
     """
 
     def __init__(self, name):

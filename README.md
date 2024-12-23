@@ -2,7 +2,7 @@
 
 Demonstration of a project structure for common machine learning workflows. Uses Tensorflow and Scikit with a monorepo structure. 
 
-Jupyter notebook examples and an example of executing via REST is also included.
+An example of executing via REST is also included.
 
 ## Setup and Install
 
@@ -60,6 +60,3 @@ Machine learning pipelines implemented using Sklearn.
 Machine learning pipelines implemented using Tensorflow.
 
 `api` A simple FastAPI interface that exposes some API endpoints to demonstrate executing the workflows via REST.
-
-`notebooks`
-Examples of using the workflows from Jupyter notebook.
