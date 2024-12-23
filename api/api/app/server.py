@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from api.app.injector import get_user_controller
+from api.app.injector import get_sklearn_controller
 
 
 def create_app() -> FastAPI:
@@ -11,7 +11,7 @@ def create_app() -> FastAPI:
 
 
 def setup_injector():
-    get_user_controller()
+    get_sklearn_controller()
 
 
 def setup_router(app: FastAPI):

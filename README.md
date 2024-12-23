@@ -1,5 +1,11 @@
 # Tensorflow-Scikit Workflows 
 
+Demonstration of a project structure for common machine learning workflows. Uses Tensorflow and Scikit with a monorepo structure. 
+
+Jupyter notebook and command line examples are included.
+
+An example of executing via REST is also included.
+
 ## Setup and Install
 
 ### Create a Virtual Environment
@@ -11,7 +17,7 @@ $ pyenv virtualenv 3.11.9 tf-sk-workflows
 ### Activate Existing Virtual Environment
 
 ```bash
-$ pyenv local tf-sk-workflow
+$ pyenv local tf-sk-workflows
 ```
 
 ## Install
@@ -47,14 +53,18 @@ JSON Spec: http://localhost:3001/openapi.json
 ## Project Structure
 
 `core`
-Core classes related to all models, representations of model performance and comparison utils.
+Core classes and abstractions related to all models, representations of model performance and comparison utils.
 
 `sklearnworkflows`
 Machine learning pipelines implemented using Sklearn.
-Depends on `core`.
 
 `tensorflowworkflows`
 Machine learning pipelines implemented using Tensorflow.
-Depends on `core`.
 
-`api` A simple FastAPI interface.
+`api` A simple FastAPI interface that exposes some API endpoints to demonstrate executing the workflows via REST.
+
+`notebooks`
+Examples of using the workflows from Jupyter notebook.
+
+`commandline`
+Example of running workflows from command line.
