@@ -1,5 +1,5 @@
 from sklearn import linear_model
-from core.domain.RegressionResult import RegressionResult
+from core.domain.regressionResult import RegressionResult
 
 class SimpleLinearRegression:
     def __init__(self, name):

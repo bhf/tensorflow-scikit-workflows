@@ -2,9 +2,7 @@
 
 Demonstration of a project structure for common machine learning workflows. Uses Tensorflow and Scikit with a monorepo structure. 
 
-Jupyter notebook and command line examples are included.
-
-An example of executing via REST is also included.
+Jupyter notebook examples and an example of executing via REST is also included.
 
 ## Setup and Install
 
@@ -65,6 +63,3 @@ Machine learning pipelines implemented using Tensorflow.
 
 `notebooks`
 Examples of using the workflows from Jupyter notebook.
-
-`commandline`
-Example of running workflows from command line.

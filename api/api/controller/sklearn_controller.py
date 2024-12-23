@@ -1,7 +1,6 @@
 from typing import List
 
 from api.dto.RegressionResultDTO import RegressionResultDto
-from core.service.user_service import UserService
 from sklearnworkflows.regression.SimpleLinearRegression import SimpleLinearRegression
 
 
