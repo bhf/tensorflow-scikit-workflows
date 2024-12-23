@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sklearnworkflows"
+version = "0.0.1"
+description = ""
+authors = ["bhf <bhf@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+core = {path = "../core"}
+scikit-learn = "^1.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
