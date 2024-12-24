@@ -49,14 +49,8 @@ poetry run python api
 
 Available at: 
 
-Web frontend: http://localhost:3001/docs
+SwaggerUI: http://localhost:3001/docs
+
+Redoc: http://localhost:3001/redoc
 
 JSON Spec: http://localhost:3001/openapi.json
-
-## Run Unit Tests
-
-cd into each module before running:
-
-```bash
-poetry run pytest
-```
