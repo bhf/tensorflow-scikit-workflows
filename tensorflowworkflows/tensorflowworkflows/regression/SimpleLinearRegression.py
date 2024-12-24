@@ -1,4 +1,4 @@
-class SimpleLinearRegression:
+class SimpleLinearRegression(RegressionPipeline):
     """ Encapsulate logic around linear regressions using Tensorflow.
     """
 

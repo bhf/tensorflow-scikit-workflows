@@ -1,6 +1,11 @@
-class SimpleClassification:
-    """ Encapsulate logic around classification models using SKLearn.
+from core.domain.classification.classificationResult import ClassificationResult
+from core.interfaces.classification.IClassificationPipeline import ClassificationPipeline
+class SimpleClassification(ClassificationPipeline):
+    """ Encapsulate logic around classification using SKLearn.
     """
 
     def __init__(self, name):
         self.name = name
+
+    def doClassification() -> ClassificationResult:
+        return NotImplementedError
