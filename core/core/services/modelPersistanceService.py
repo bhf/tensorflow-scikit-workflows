@@ -1,5 +1,5 @@
-from core.domain.regressionPipelineResult import RegressionPipelineResult
-from core.domain.regressionResult import RegressionResult
+from core.domain.regression.regressionPipelineResult import RegressionPipelineResult
+from core.domain.regression.regressionResult import RegressionResult
 
 def persistRegressionPipeline(model: RegressionPipelineResult):
     """ Persist a RegressionPipelineResult.

@@ -1,5 +1,5 @@
-from core.domain.regressionPipelineResult import RegressionPipelineResult
-from core.domain.regressionResult import RegressionResult
+from core.domain.regression.regressionPipelineResult import RegressionPipelineResult
+from core.domain.regression.regressionResult import RegressionResult
 
 def compareRegressionPipelines(modelA: RegressionPipelineResult, modelB: RegressionPipelineResult):
     """ Compare the results from 2 different regression model pipelines.
