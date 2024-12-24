@@ -8,6 +8,7 @@ authors = ["bhf <bhf@gmail.com>"]
 python = "3.10.12"
 core = {path = "../core"}
 tensorflow = "^2.18.0"
+keras = "^3.7.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"

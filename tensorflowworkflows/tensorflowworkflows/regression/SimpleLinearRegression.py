@@ -1,6 +1,8 @@
 from core.domain.regression.regressionPipelineResult import RegressionPipelineResult
 from core.domain.regression.regressionResult import RegressionResult
 from core.interfaces.regression.IRegressionPipeline import RegressionPipeline
+import tensorflow as tf
+import numpy as np
 
 class SimpleLinearRegression(RegressionPipeline):
     """ Encapsulate logic around linear regressions using Tensorflow.
