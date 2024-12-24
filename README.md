@@ -24,13 +24,18 @@ $ pyenv local tf-sk-workflows
 poetry install
 ``` 
 
-## Run Unit Tests
+## Project Structure
 
-cd into each module before running:
+`core`
+Core classes and abstractions related to all models, representations of model performance and comparison utils.
 
-```bash
-poetry run pytest
-```
+`sklearnworkflows`
+Machine learning pipelines implemented using Sklearn.
+
+`tensorflowworkflows`
+Machine learning pipelines implemented using Tensorflow.
+
+`api` A simple FastAPI interface that exposes some API endpoints to demonstrate executing the workflows via REST.
 
 ## API and Swagger Spec
 
@@ -48,15 +53,10 @@ Web frontend: http://localhost:3001/docs
 
 JSON Spec: http://localhost:3001/openapi.json
 
-## Project Structure
+## Run Unit Tests
 
-`core`
-Core classes and abstractions related to all models, representations of model performance and comparison utils.
+cd into each module before running:
 
-`sklearnworkflows`
-Machine learning pipelines implemented using Sklearn.
-
-`tensorflowworkflows`
-Machine learning pipelines implemented using Tensorflow.
-
-`api` A simple FastAPI interface that exposes some API endpoints to demonstrate executing the workflows via REST.
+```bash
+poetry run pytest
+```
