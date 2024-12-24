@@ -2,7 +2,7 @@
 
 Demonstration of a project structure for common machine learning workflows. Uses Tensorflow and Scikit with a monorepo structure. 
 
-An example of executing via REST is also included.
+An example of executing via REST (FastAPI) is also included.
 
 ## Setup and Install
 
